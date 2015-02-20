@@ -1,0 +1,7 @@
+mt_exo_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MtExoBundle:Default:index }
+
+mt_dix_minutes_fm:
+    path:     /addme
+    defaults: { _controller: MtExoBundle:TestFormulaire:index }

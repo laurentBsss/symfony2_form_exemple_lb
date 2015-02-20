@@ -1,0 +1,36 @@
+Mt\ExoBundle\Entity\Annonces:
+    type: entity
+    table: null
+    repositoryClass: Mt\ExoBundle\Entity\AnnoncesRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        titre:
+            type: string
+            length: 255
+        auteur:
+            type: string
+            length: 255
+        dateAnnonces:
+            type: datetime
+        dateCre:
+            type: datetime
+        dateSup:
+            type: datetime
+        dateMaj:
+            type: datetime
+        util:
+            type: string
+            length: 255
+        contenuAnnonce:
+            type: string
+            length: 255
+        prixAnnonce:
+            type: integer
+        nbligne:
+            type: integer
+    lifecycleCallbacks: {  }
